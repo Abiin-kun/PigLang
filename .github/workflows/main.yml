@@ -74,8 +74,6 @@ jobs:
       name: Release
       with:
         files: artifacts/*
-    # This will double-zip
-    # See - https://github.com/actions/upload-artifact/issues/39
     - uses: actions/upload-artifact@v1
       name: Upload archive
       with:
