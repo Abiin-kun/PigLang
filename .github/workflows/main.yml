@@ -75,6 +75,7 @@ jobs:
       name: Release
       with:
         files: artifacts/*
+        tag_name: v1
     - uses: actions/upload-artifact@v1
       name: Upload archive
       with:
